@@ -23,7 +23,9 @@ note_router.post('/notes', (req,res) => {
         .then(note_data => {
             const new_note = req.body;
             const reference_id = note_data.length ? note_data[note_data.length - 1].id : 0;
-            new_note.id = reference_id + 1;
+            new_note.id = parseInt(reference_id) + 1;
+
+            console.log(new_note, reference_id)  //***//  added
 
             note_data.push(new_note);
 

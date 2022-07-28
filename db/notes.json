@@ -1,7 +1,7 @@
 [
   {
-    "id": "1",
-    "title": "Test Title",
-    "text": "Test text"
+    "title": "How to Use App",
+    "text": "-Fill in the text fields for Title and Note\n\n-Once both fields have text a save button appears in upper right\n\n-Click save and note will be added to saved notes\n\n-Click saved notes to view the contents\n\n-If viewing existing note, can push + sign to start new note\n\n*Notes will be saved even when app is closed\n\n**Notes will persist and be viewable by ANY user\n           -please be appropriate, family friends notes only\n\n\n                                 Thanks  & Enjoy!\n\n                                                   -Brad Schill",
+    "id": 1
   }
 ]
