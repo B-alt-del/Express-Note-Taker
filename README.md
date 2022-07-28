@@ -5,7 +5,13 @@
 
 ## Description
 
-As a student learning how to code, note taking can take a bit to get used to; organizing those notes can get even more difficult\n-Not knowing where to save the notes\n-Having to dig through multiple dense note files just to find answers\nSO i created a note taker that can organise your notes by a title and be stored in a databse all in one place\n Throughout this process i learned the intricacies of connecting a db to a public file and working between a front end and a back end
+As a student learning how to code, note taking can take a bit to get used to; organizing those notes can get even more difficult
+-Not knowing where to save the notes
+-Having to dig through multiple dense note files just to find answers
+
+SO i created a note taker that can organise your notes with a title and be stored in a databse all in one place
+
+Throughout this process i learned the intricacies of connecting a db to a public file and working between a front end and a back end
 
 ## Table of Contents 
 
@@ -19,13 +25,22 @@ As a student learning how to code, note taking can take a bit to get used to; or
 
 ## Installation
 
-In order to install this project you must pull down the file and in the terminal type 'npm run dev' then go to your browser and type in localhost:3333
+No installation necessary, simply visit the deployed APP       [![Generic badge](https://img.shields.io/badge/(click_here)-pink.svg)](https://brads-chill-notes.herokuapp.com/)
 
-## Usage
+## [Usage](https://brads-chill-notes.herokuapp.com/api/notes)
 
-After running the npm command you can now go to your browder and on localhost:3333 youll find the note taking app\nsimply click get started button and start adding notes\nOnce you type in a note and title a save icon will appear and this will save the note to your database\n each time you run the server and then visit localhost:3333 you will see the previous stored notes\nif you want to delete a note simply click the delete icon next to the note and it will be cleared
+-click get started
 
-![Note Taker In Action](/assets/images/screenshot.png)
+-fill in fields, press save
+
+-click on saved notes to view contents
+
+-delete notes with garbage can
+
+-notes will persist on backend if app closed
+
+![HomePage: Start Screen](/assets/images/screenshot1.png)
+![How-To Note (pre-existing)](/assets/images/screenshot2.png)
 
 ## License
 
@@ -33,7 +48,13 @@ After running the npm command you can now go to your browder and on localhost:33
 
 ## Features
 
--database to store notes that you enter\n-save button to store notes into the table on the left\n-interactive front end to input notes    
+-database to store notes that you enter
+
+-save button to store notes into the table on the left
+
+-delete button to erase notes
+
+-interactive front end to input notes    
 
 ## Contributing
 
@@ -45,9 +66,7 @@ Feel free to make adjustments on the app and submit a pull request on my github 
 
 Currently there are no tests, but i plan on making tests in the future    
 
-## Questions
-
-    
+## Questions? 
 
 ## Contact Info
 
